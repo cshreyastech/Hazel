@@ -1,8 +1,6 @@
 #pragma once
 
 #include "Hazel/Window.h"
-#include "Hazel/Events/ApplicationEvent.h"
-
 #include <GLFW/glfw3.h>
 
 namespace Hazel {
