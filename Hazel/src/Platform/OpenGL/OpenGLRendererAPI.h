@@ -1,7 +1,7 @@
 #pragma once
 
 #include "Hazel/Renderer/RendererAPI.h"
-
+#include <glad/glad.h>
 namespace Hazel {
 	class OpenGLRendererAPI : public RendererAPI
 	{

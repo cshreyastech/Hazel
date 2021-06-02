@@ -1,7 +1,6 @@
 #include "hzpch.h"
 #include "OpenGLRendererAPI.h"
 
-#include <glad/glad.h>
 namespace Hazel {
 	void OpenGLRendererAPI::SetClearColor(const glm::vec4& color)
 	{
