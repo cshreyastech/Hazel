@@ -1,3 +1,5 @@
 DEFS = ML_DEFAULT_LOG_TAG="hazel"
 KIND = shared
-USES = hazel
+
+USES = \
+	hazel

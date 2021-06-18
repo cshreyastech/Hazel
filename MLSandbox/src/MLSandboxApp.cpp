@@ -11,6 +11,7 @@
 // %BANNER_END%
 
 #include <Hazel.h>
+#include <spdlog/spdlog.h>
 
 class Sandbox : public Hazel::Application
 {
