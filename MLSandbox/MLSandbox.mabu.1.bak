@@ -1,0 +1,8 @@
+DEFS = ML_DEFAULT_LOG_TAG="ML_Sandbox"
+KIND = program
+OPTIONS = \
+	standard-c++/17 \
+	stl/libgnustl
+
+REFS = ../Hazel/Hazel
+USES = MLSandbox

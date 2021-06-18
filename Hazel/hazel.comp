@@ -1,0 +1,13 @@
+DEFS.win = \
+	HZ_PLATFORM_WINDOWS \
+	HZ_BUILD_DLL
+
+#export INCS = src
+INCS = src
+SRCS = \
+	src/Hazel/Application.cpp
+
+OPTIONS = standard-c++/17 exceptions/on warn/on package/debuggable/on
+
+#OUT = \
+#	../bin/Debug-x64/Hazel/

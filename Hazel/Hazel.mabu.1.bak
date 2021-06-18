@@ -1,0 +1,12 @@
+DEFS = ML_DEFAULT_LOG_TAG="hazel"
+
+KIND = shared
+#USES = stdc++
+#OUT.debug_win_msvc-2019-16.10_x64 = ../bin\Debug-x64\Hazel
+#OUT.release_win_msvc-2019-16.10_x64 = ../bin\Debug-x64\Hazel
+#OUT.debug_lumin_clang-3.8_aarch64 = ../bin\Debug-x64\Hazel
+#OUT.release_lumin_clang-3.8_aarch64 = ../bin\Debug-x64\Hazel
+#DEFS.win = \
+#	GLFW_INCLUDE_NONE=1 \
+#	ML_USE_HIGH_PERFORMANCE_GPU=1
+USES = hazel

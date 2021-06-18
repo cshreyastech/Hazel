@@ -1,0 +1,9 @@
+DEFS.win = \
+	HZ_PLATFORM_WINDOWS
+
+SRCS = src/MLSandboxApp.cpp
+
+OPTIONS = standard-c++/17 exceptions/on warn/on package/debuggable/on
+
+#OUT = \
+#	../bin/Debug-x64/MLSandbox/
